@@ -1,6 +1,9 @@
+/* Background image displayed on website */
 body {
-  background-image: url(./background.png)
+  background-image: url(./images/background.png)
 }
+
+/* Font on navbar and links */
 .navbar-brand {
   font-family: 'Solway', serif;
   font-weight: bold;
@@ -10,37 +13,45 @@ body {
   font-family: 'Solway', serif;
 }
 
+/* Paragraph link color */
 a {
   color: #c13b79;
 }
 
+/* Paragraph link hover color */
 a:hover {
   color: #7e3c5a;
   text-decoration: none;
 }
 
+/* Card margins and border */
 .card {
     margin-top: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     border-color: #78d9cf;
     border-width: 2px;
 }
 
-h5 {
+/* Header font and color  */
+h1 {
   font-family: 'Solway', serif;
   font-size: 35px;
   font-weight: bold;
   color: #c13b79;
+  text-align: center;
 }
 
+/* Horizontal line formatting */
 hr {
   border: 1px dashed #3ca59b;
 }
 
+/* Paragraph font */
 p {
   font-family: 'Gothic A1', sans-serif;
 }
 
+/* Profile image position */
 #profile {
     float: right;
     padding-left: 10px;
@@ -48,16 +59,20 @@ p {
     margin: 0 auto;
 }
 
-.portfolio-top {
-  margin-bottom: 15px;
+/* Portfolio image */
+.portfolio {
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
 }
 
+/* Labels for contact form */
 label {
-  font-family: 'Gothic A1', sans-serif;
-  font-weight: 600;
+  font-family: 'Solway', serif;
   font-size: 18px;
 }
 
+/* Button colors */
 .btn-primary {
   background-color: #3ca59b;
   border-color: #3ca59b;
@@ -78,45 +93,30 @@ label {
   border-color: #78d9cf;
 }
 
+/* Footer */
 .footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    margin-top: 40px;
-    height: 40px; /* Set the fixed height of the footer here */
-    line-height: 40px;
+    margin-top: 50px;
+    height: 50px; /* Set the fixed height of the footer here */
+    line-height: 50px;
     text-align: center; /* Vertically center the text there */
     background-color: #353a3f;
   }
 
+/* Footer text */
   .muted {
     font-family: 'Solway', serif;
     color: white;
-
   }
   
-  @media screen and (max-width: 768px) {
+/* If the screen is 768px or smaller */
+@media screen and (max-width: 768px) {
 
+  /* Portfolio image formatting */
    .portfolio {
      margin: 0 auto;
-     display: flex;
-     align-items: center;
-     padding-left: 15px;
-     padding-bottom: 15px;
    }
 
 }
-
-@media screen and (max-width: 400px) {
-
- .portfolio {
-   display: flex;
-   align-items: center;
-   padding-left: 0px;
-   padding-bottom: 15px;
- }
-
-}
-
-  
-  

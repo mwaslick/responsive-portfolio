@@ -11,57 +11,66 @@
 </head>
 
 <body>
+    <!-- Navbar in dark format, expands on a large screen and collapses on a medium screen or smaller -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">Maria Waslick</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse float-right text-right pr-3" id="navbarNav">
+            <!-- Unordered list showing the three navbar links to Contact, Portfolio, and About -->
           <ul class="navbar-nav ml-auto">
               <li class= "nav-item">
+                  <!-- Link to Contact -->
                 <a class="nav-link" href="contact.html">Contact</a>
               </li>
               <li class= "nav-item">
+                  <!-- Link to Portfolio -->
                   <a class= "nav-link" href="portfolio.html">Portfolio</a>
               </li>
               <li class= "nav-item active">
+                  <!-- Link to About (active on this page) -->
                   <a class= "nav-link" href="#"> About<span class="sr-only">(current)</span></a>
               </li>
           </ul>
         </div>
       </nav>
 
-
+    <!-- Container where the card will be contained in the boostrap grid -->
     <div class= "container">
         <div class= "row">
+            <!-- On a large screen the card column will have a width of 9, on a small screen the column will have a width of 10, and on an extra-small screen the column will have a width of 12 -->
             <div class= "col-lg-9 col-sm-10 col-xs-12">
+                <!-- Card containing information About Me -->
                 <div class= "card">
                     <div class= "card-body">
                         <div class= "row">
+                            <!-- Row that displays the title -->
                             <div class= "col-12">
-                                <h5 class="card-title">About Me</h5>
+                                <h1 class="card-title">About Me</h1>
                                 <hr>
                             </div>
                         </div>
                         
                         <div class= "row">
                             <div class= "col-12">
-                                <img id= "profile" src= "./profile picture.png" alt= "Profile Picture">
+                                <!-- Row 1 of text, including my profile image and the first body paragraph -->
+                                <img id= "profile" src= "./images/profile picture.png" alt= "Maria Waslick's Profile Picture">
                                  <p>
-                                    Hi! My name is Maria Waslick! I was born in New York City, but I currently live in Longmeadow, Massachusetts. I graduated from Vassar College in 2017 with a Psychology major, and have been working in various day cares and elementary schools for the past few years. However, I have always been interested in coding and technology, have prior experience with graphic design, and am excited to take the plunge into UW's Coding Boot Camp. I cannot wait to learn more about coding and what goes into creating websites and applications. When I'm not coding, I enjoy reading, writing, drawing, going for walks, and playing video games. I also have a dog named Ping, who is an 11-year-old Shih Tzu and likes to sit on the couch next to me.
+                                    Hi! My name is Maria Waslick! I was born in New York City, and currently live in Longmeadow, Massachusetts. I graduated from Vassar College in 2017 with a Psychology major, and have been working in various day cares and elementary schools for the past few years. However, I have always been interested in coding and technology, have prior experience with graphic design, and am excited to take the plunge into UW's Coding Boot Camp. I cannot wait to learn what goes into developing websites and applications, and am eager to put my skills to work by creating something amazing. When I'm not coding, I enjoy reading, writing, drawing, going for walks, and playing video games. I also have a dog named Ping, who is an 11-year-old Shih Tzu and likes to sit on the couch next to me.
                                 </p>
                             </div>
                         </div>
 
                         <div class= "row">
                             <div class= "col-12">
+                                <!-- Row 2 of text, including the second body paragraph and a link to my Github -->
                                <p>
-                              I hope you enjoy my first portfolio site! You can visit my <a href= "https://github.com/mwaslick">Github</a> to see my other coding projects.
+                              This is my first portfolio site, where I worked on creating a mobile responsive layout, Bootstrap's components and grid system, and CSS design to make my page look pretty. I hope you enjoy my portfolio! You can visit my <a href= "https://github.com/mwaslick">Github</a> to see my other coding projects.
 
                                </p> 
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -69,11 +78,13 @@
     </div>
 
     <footer class="footer">
+        <!-- Fixed footer at the bottom of the screen, which displays copyright information -->
         <div class="container">
           <span class="muted">Copyright 2020 &#169 Maria Waslick</span>
         </div>
       </footer> 
 
+ <!-- Javascript source -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>

@@ -11,66 +11,84 @@
 
 </head>
 <body>
+    <!-- Navbar in dark format, expands on a large screen and collapses on a medium screen or smaller -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">Maria Waslick</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse float-right text-right pr-3" id="navbarNav">
+            <!-- Unordered list showing the three navbar links to Contact, Portfolio, and About -->
           <ul class="navbar-nav ml-auto">
               <li class= "nav-item">
+                  <!-- Link to Contact -->
                 <a class="nav-link" href="contact.html">Contact</a>
               </li>
               <li class= "nav-item active">
+                  <!-- Link to Portfolio (active on this page) -->
                   <a class= "nav-link" href="#">Portfolio<span class="sr-only">(current)</span></a>
               </li>
               <li class= "nav-item">
+                  <!-- Link to About -->
                   <a class= "nav-link" href="index.html"> About </a>
               </li>
           </ul>
         </div>
       </nav>
 
+ <!-- Container where the card will be contained in the boostrap grid -->
     <div class= "container">
         <div class= "row">
+             <!-- On a large screen the card column will have a width of 9, on a small screen the column will have a width of 10, and on an extra-small screen the column will have a width of 12 -->
             <div class= "col-lg-9 col-sm-10 col-xs-12">
                 <div class="card">
+                    <!-- Card containing my portfolio -->
                     <div class="card-body">
                         <div class= "row">
                             <div class= "col-12">
-                                <h5 class="card-title">My Portfolio</h5>
+                                <!-- Row that displays the title -->
+                                <h1 class="card-title">My Portfolio</h1>
                                 <hr>
                             </div>
                         </div>
                       
                         <div class= "row">
+                            <!-- Rows displaying 6 portfolio images. On a large screen each image has a column width of 6, and on a medium or smaller screen each image has a column width of 12 -->
                             <div class= "col-lg-6 col-md-12">
-                                <img class= "portfolio portfolio-top" src= "http://placekitten.com/350/350">
+                                <!-- First portfolio image -->
+                                <img class= "portfolio img-fluid" src= "./images/sunset.png" alt= "An image of the sunset over the ocean, with seagulls swimming in the foreground">
                             </div>
 
                             <div class= "col-lg-6 col-md-12">
-                                <img class= "portfolio portfolio-top" src= "http://placekitten.com/350/350">
+                                <!-- 2nd portfolio image -->
+                                <img class= "portfolio img-fluid" src= "./images/ping.png" alt= "An image of my dog Ping, a small white dog with big brown eyes, dark brown ears, and a blue collar">
                             </div>
                         </div>
 
                         <div class= "row">
                             <div class= "col-lg-6 col-md-12">
-                                <img class= "portfolio portfolio-top" src= "http://placekitten.com/350/350">
+                                <!-- 3rd portfolio image -->
+                                <img class= "portfolio img-fluid" src= "./images/flowers.png" alt= "An image of several pink flowers on a tree in front of a gated building">
                             </div>
 
                             <div class= "col-lg-6 col-md-12">
-                                <img class= "portfolio portfolio-top" src= "http://placekitten.com/350/350">
+                                <!-- 4th portfolio image -->
+                                <img class= "portfolio img-fluid" src= "./images/fountain.png" alt= "An image of a large white fountain topped with a statue of an angel, with smaller statues also spewing water underneath it">
                             </div>
                         </div>
 
                         <div class= "row">
                             <div class= "col-lg-6 col-md-12">
-                                <img class= "portfolio portfolio-top" src= "http://placekitten.com/350/350">
+                                <!-- 5th portfolio image -->
+                                <img class= "portfolio img-fluid" src= "./images/park.png" alt= "An image of a large white stone building surrounded by water, with a statue of someone on a horse in front of it. People are on boats in the water, and there are trees in the background.">
                             </div>
 
                             <div class= "col-lg-6 col-md-12">
-                                <img class= "portfolio portfolio-top" src= "http://placekitten.com/350/350">
+                                <!-- 6th portfolio image -->
+                                <img class= "portfolio img-fluid" src= "./images/bridge.png" alt= "An image of a large stone bridge over a river, with a cliffside of old-looking buildings overlooking it">
                             </div>
+
+                           
                         </div>
 
                        
@@ -80,13 +98,14 @@
         </div>
      </div>
     
-    
+<!-- Fixed footer at the bottom of the screen, which displays copyright information -->
     <footer class="footer">
         <div class="container">
           <span class="muted">Copyright 2020 &#169 Maria Waslick</span>
         </div>
       </footer> 
 
+ <!-- Javascript source -->
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
