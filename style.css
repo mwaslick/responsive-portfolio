@@ -1,23 +1,122 @@
+body {
+  background-image: url(./background.png)
+}
+.navbar-brand {
+  font-family: 'Solway', serif;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-family: 'Solway', serif;
+}
+
+a {
+  color: #c13b79;
+}
+
+a:hover {
+  color: #7e3c5a;
+  text-decoration: none;
+}
+
 .card {
     margin-top: 40px;
+    margin-bottom: 20px;
+    border-color: #78d9cf;
+    border-width: 2px;
+}
+
+h5 {
+  font-family: 'Solway', serif;
+  font-size: 35px;
+  font-weight: bold;
+  color: #c13b79;
+}
+
+hr {
+  border: 1px dashed #3ca59b;
+}
+
+p {
+  font-family: 'Gothic A1', sans-serif;
 }
 
 #profile {
-    float: left;
-    padding-right: 10px;
+    float: right;
+    padding-left: 10px;
+    padding-bottom: 5px;
     margin: 0 auto;
 }
 
-body {
-    margin-bottom: 60px; /* Margin bottom by footer height */
-  }
+.portfolio-top {
+  margin-bottom: 15px;
+}
+
+label {
+  font-family: 'Gothic A1', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.btn-primary {
+  background-color: #3ca59b;
+  border-color: #3ca59b;
+}
+
+.btn-primary:hover {
+  background-color: #78d9cf;
+  border-color: #78d9cf;
+}
+
+.btn-primary:active {
+  background-color: #78d9cf;
+  border-color: #78d9cf;
+}
+
+.btn-primary:focus {
+  background-color: #78d9cf;
+  border-color: #78d9cf;
+}
 
 .footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
-    height: 60px; /* Set the fixed height of the footer here */
-    line-height: 60px; /* Vertically center the text there */
-    background-color: #f5f5f5;
+    margin-top: 40px;
+    height: 40px; /* Set the fixed height of the footer here */
+    line-height: 40px;
+    text-align: center; /* Vertically center the text there */
+    background-color: #353a3f;
   }
+
+  .muted {
+    font-family: 'Solway', serif;
+    color: white;
+
+  }
+  
+  @media screen and (max-width: 768px) {
+
+   .portfolio {
+     margin: 0 auto;
+     display: flex;
+     align-items: center;
+     padding-left: 15px;
+     padding-bottom: 15px;
+   }
+
+}
+
+@media screen and (max-width: 400px) {
+
+ .portfolio {
+   display: flex;
+   align-items: center;
+   padding-left: 0px;
+   padding-bottom: 15px;
+ }
+
+}
+
+  
   
