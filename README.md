@@ -33,4 +33,4 @@ All elements of the layout are responsive whether you are on a desktop or mobile
 
 ## Special Thanks
 
-Special thanks to UW Coding Bootcamp for the guidance and support!
+Special thanks to UW Coding Bootcamp for the guidance and support, as well as the layout inspiration!
