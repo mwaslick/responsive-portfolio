@@ -1,4 +1,4 @@
-# Maria Waslick's Responsive Portfolio
+# Maria Waslick's Responsiveness Portfolio
 
 > In our current age of mobile internet usage, it is important for every website to be accessible via small screens as well as big ones. My name is Maria Waslick, and I have created this portfolio to practice utilizing mobile responsive layouts, Bootstrap 4 and its premade components, and creating web layouts with CSS design. In viewing this portfolio, you will learn a little more about me, view photos I have taken, and can even send me a message!
 
