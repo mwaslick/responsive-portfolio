@@ -1,6 +1,6 @@
 /* Background image displayed on website */
 body {
-  background-image: url(./images/background.png)
+  background-color: #D9BCC7;
 }
 
 /* Font on navbar and links */
@@ -36,6 +36,14 @@ a:hover {
 h1 {
   font-family: 'Solway', serif;
   font-size: 35px;
+  font-weight: bold;
+  color: #c13b79;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Solway', serif;
+  font-size: 25px;
   font-weight: bold;
   color: #c13b79;
   text-align: center;
