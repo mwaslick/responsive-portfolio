@@ -59,6 +59,12 @@ p {
   font-family: 'Gothic A1', sans-serif;
 }
 
+/* List font */
+li {
+  font-family: 'Gothic A1', sans-serif;
+}
+
+
 /* Profile image position */
 #profile {
     float: right;
