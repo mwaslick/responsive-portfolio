@@ -7,7 +7,7 @@ My portfolio is divided into three sections: <b>About</b>, <b>Portfolio</b>, and
 <br><br>
 All elements of the layout are responsive whether you are on a desktop or mobile screen: the navigation bar collapses in smaller screens, and the information card and images rearrange to fit the screen size as it shrinks. My portfolio also contains many of Bootstrap's components (such as the navbar, the card, the form, and the img-fluid property) and utilizes Bootstrap's grid system. I have also put my own personal twist on the layout by adding fonts from Google Fonts and changing some of the CSS elements.
 <br><br>
-You can visit my site at <a href=https://mwaslick.github.io/responsive-portfolio/index.html>https://mwaslick.github.io/responsive-portfolio/index.html</a>!
+You can visit my site at <a href=https://mwaslick.github.io/responsive-portfolio/index.html>https://mwaslick.github.io/portfolio/index.html</a>!
 
 ## Screenshots
 
