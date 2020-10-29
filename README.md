@@ -9,30 +9,6 @@ All elements of the layout are responsive whether you are on a desktop or mobile
 <br><br>
 You can visit my site at <a href=https://mwaslick.github.io/responsive-portfolio/index.html>https://mwaslick.github.io/portfolio/index.html</a>!
 
-## Screenshots
-
-### Desktop Layout  
-
-![About Me screenshot formatted for large screens](./screenshots/aboutme.png
-)
-
-![Portfolio screenshot formatted for large screens](./screenshots/portfolio.png
-)
-
-![Contact screenshot formatted for large screens](./screenshots/contact.png
-)
-
-### Mobile Layout
-
-![About Me screenshot formatted for extra-small screens](./screenshots/aboutmobile.png
-)
-
-![Portfolio screenshot formatted for extra-small screens](./screenshots/portfoliomobile.png
-)
-
-![Contact screenshot formatted for extra-small screens](./screenshots/contactmobile.png
-)
-
 ## Special Thanks
 
 Special thanks to UW Coding Bootcamp for the guidance and support!
